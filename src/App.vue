@@ -10,8 +10,8 @@ import SentimentAnalyzer from './components/SentimentAnalyzer.vue';
 export default {
   name: 'App',
   components: {
-    SentimentAnalyzer,
-  },
+    SentimentAnalyzer
+  }
 };
 </script>
 
@@ -29,13 +29,13 @@ html, body {
 }
 
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f0f2f5;
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  background-color: #0f172a;
+  color: #f8fafc;
 }
 
 #app {
   width: 100%;
   min-height: 100vh;
-  overflow-x: hidden;
 }
 </style>
